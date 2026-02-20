@@ -1,10 +1,16 @@
+// src/data/products.js
 export const products = [
-  {
-    id: 1,
-    slug: "isi-yalitim-levhasi",
-    name: { tr: "Isı Yalıtım Levhası", en: "Thermal Insulation Board" },
-    description: { tr: "Yüksek yoğunluklu ısı yalıtımı...", en: "High density thermal insulation..." },
-    image: "/images/product1.jpg"
-  },
-  // Buraya 13 ürünü bu formatta ekleyeceğiz.
+  { id: 1, name: "Ürün 1", image: "https://via.placeholder.com/300", category: "Yalıtım" },
+  { id: 2, name: "Ürün 2", image: "https://via.placeholder.com/300", category: "Yalıtım" },
+  { id: 3, name: "Ürün 2", image: "https://via.placeholder.com/300", category: "Yalıtım" },
+  { id: 4, name: "Ürün 2", image: "https://via.placeholder.com/300", category: "Yalıtım" },
+  { id: 5, name: "Ürün 2", image: "https://via.placeholder.com/300", category: "Yalıtım" },
+  { id: 6, name: "Ürün 2", image: "https://via.placeholder.com/300", category: "Yalıtım" },
+  { id: 7, name: "Ürün 2", image: "https://via.placeholder.com/300", category: "Yalıtım" },
+  { id: 8, name: "Ürün 2", image: "https://via.placeholder.com/300", category: "Yalıtım" },
+  { id: 9, name: "Ürün 2", image: "https://via.placeholder.com/300", category: "Yalıtım" },
+  { id: 10, name: "Ürün 2", image: "https://via.placeholder.com/300", category: "Yalıtım" },
+  { id: 11, name: "Ürün 2", image: "https://via.placeholder.com/300", category: "Yalıtım" },
+  { id: 12, name: "Ürün 2", image: "https://via.placeholder.com/300", category: "Yalıtım" },
+  { id: 13, name: "Ürün 2", image: "https://via.placeholder.com/300", category: "Yalıtım" },
 ];

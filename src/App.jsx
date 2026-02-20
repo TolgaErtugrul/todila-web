@@ -1,12 +1,15 @@
 import Navbar from './components/Navbar';
+import ProductGallery from './components/ProductGallery';
+import TechnicalDocs from './components/TechnicalDocs';
 
 function App() {
   return (
     <div className="min-h-screen bg-slate-50">
       <Navbar />
-      <div className="container mx-auto mt-10 text-center">
-        <h1 className="text-4xl font-extrabold text-slate-800">Todila İnşaat Yalıtım Çözümleri</h1>
-      </div>
+      <main>
+        <ProductGallery />
+        <TechnicalDocs />
+      </main>
     </div>
   );
 }
