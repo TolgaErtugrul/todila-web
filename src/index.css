@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Navbar sabit olduğu için tıklandığında başlığın Navbar'ın altında kalmasını engeller */
+section {
+  scroll-margin-top: 80px;
+}
