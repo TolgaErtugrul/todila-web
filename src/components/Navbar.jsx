@@ -21,10 +21,10 @@ const Navbar = () => {
       <div className="text-2xl font-bold text-orange-500 cursor-pointer" onClick={(e) => scrollToSection(e, 'hero')}>TODILA</div>
       
       <div className="hidden md:flex space-x-6 items-center">
-        <a href="#products" onClick={(e) => scrollToSection(e, 'products')} className="hover:text-orange-400 transition">Ürünler</a>
-        <a href="#apps" onClick={(e) => scrollToSection(e, 'apps')} className="hover:text-orange-400 transition">Uygulamalar</a>
-        <a href="#docs" onClick={(e) => scrollToSection(e, 'docs')} className="hover:text-orange-400 transition">Teknik Dokümanlar</a>
-        <a href="#contact" onClick={(e) => scrollToSection(e, 'contact')} className="hover:text-orange-400 transition">İletişim</a>
+        <a href="#products" onClick={(e) => scrollToSection(e, 'products')} className="hover:text-orange-400 transition">{t('nav_products')}</a>
+        <a href="#apps" onClick={(e) => scrollToSection(e, 'apps')} className="hover:text-orange-400 transition">{t('nav_apps')}</a>
+        <a href="#docs" onClick={(e) => scrollToSection(e, 'docs')} className="hover:text-orange-400 transition">{t('nav_docs')}</a>
+        <a href="#contact" onClick={(e) => scrollToSection(e, 'contact')} className="hover:text-orange-400 transition">{t('nav_contact')}</a>
         
         <button 
           onClick={() => changeLanguage(i18n.language === 'tr' ? 'en' : 'tr')}
